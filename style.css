@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 6px;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.input_box {
+  display: flex;
+  align-items: center;
+}
+
+.input1 {
+  height: 42px;
+  width: 40px;
+  font-size: 28px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.plus {
+  /* line-height: 42px; */
+  /* border: 1px solid blue; */
+  padding: 0 6px;
+  font-weight: bold;
+}
+
+.input2 {
+  height: 42px;
+  width: 40px;
+  font-size: 28px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hasil-container {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear {
+  font-size: 28px;
+  padding: 0;
+  border: 0px;
+  margin: 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.equal {
+  /* margin: 6px; */
+  font-size: 28px;
+  padding: 0 10px;
+  width: 40%;
+  margin: auto;
+}
+
+.hasil_box {
+  /* margin: auto; */
+  width: 60%;
+  height: 42px;
+  background-color: white;
+  border-radius: 6px;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  /* margin-top: 14px; */
+}
